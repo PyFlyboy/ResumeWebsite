@@ -1,0 +1,174 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tomasz Kraczka - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href= "{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src= "{% static 'image/headshot.jpg ' %}" alt="Alan Smith" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Tomasz Kraczka</h1>
+			<h2 class="quickFade delayThree">job title</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e: <a href="mailto:kraczkatomasz@gmail.com" target="_blank">kraczkatomasz@gmail.com</a></li>
+
+				<li>m: +48 504 089 940</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile:</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Desire to progress, a sense of loyalty, dedication and commitment. I show planning, organizational, analytical, controlling skills;
+						I am good at tracking down inconsistencies;
+						I am interested in finding opportunities and solutions.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience:</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Finance - Tekk Mont</h2>
+					<p class="subDetails">August 2018 - April 2020</p>
+					<p>Process and data enter invoices, financial disclosures. reconcile accounts, keep records of
+						liabilities, tax accounting (remote work)</p>
+				</article>
+				
+				<article>
+					<h2>Finance - Hitachi Data System</h2>
+					<p class="subDetails">Jun 2017 - Apr 2018</p>
+					<p>PO and non PO operations, direct debits, process payments, reconcile accounts,
+						monthly accruals for unprocessed invoices, cash forecast. ERP data base experience:
+						Oracle r12.</p>
+				</article>
+				
+				<article>
+					<h2>Finance - Herbalife EMEA</h2>
+					<p class="subDetails">September 2016 - May 2017</p>
+					<p>Direct debit operations, reconcile accounts, accruals for unprocessed invoices, bank
+						reconciliations, ERP data base experience: Oracle r12.</p>
+				</article>
+				<article>
+					<h2>Finance - Malopolska Centre for Entrepreneurship</h2>
+					<p class="subDetails">August 2011 - August 2016</p>
+					<p>Monitoring founds activities, preparing monthly and quarterly reports, generating and
+						analyzing data and reports from Oracle Business Intelligence, analyzing EU law.</p>
+				</article>
+
+
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills:</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>MySQL</li>
+					<li>Python</li>
+					<li>HTML, CSS</li>
+					<li>SoapUI</li>
+					<li>Postman</li>
+					<li>TestLink</li>
+					<li>Atlassian Jira</li>
+					<li>ISTQB Foundation Level</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Courses:</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>CodersLab</h2>
+					<p class="subDetails">Automation Tester</p>
+					<p>Java; Selenium WebDriver; Jmeter; JUnit; Cucumber.</p>
+				</article>
+
+				<article>
+					<h2>CodersLab</h2>
+					<p class="subDetails">Manual Tester</p>
+					<p>Testing Web Services (REST / SOAP) including test tool like SoapUI and Postman;
+					Test Plans - defining content and document structure;
+					Creating test cases and scenarios; test cases executions; bugs reporting;
+					Creating reports related to test plans;
+					Testing the application in Scrum methodology (participation in the full five-day sprint).</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education:</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Jagiellonian University</h2>
+					<p class="subDetails">Master in History</p>
+
+				</article>
+				
+				<article>
+					<h2>High School of Telecommunication</h2>
+					<p class="subDetails">Electronic Technician</p>
+
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
