@@ -1,1 +1,1 @@
-web: gunicorn djangoresume.wsgi
+web: gunicorn myPortfolio.wsgi
